@@ -1,0 +1,12 @@
+[
+    {
+        "id": "3dcb71c0-c1bf-11ec-9d64-0242ac120002",
+        "usuario": "admin",
+        "rol": "admin"
+    },
+    {
+        "id": "3dcb7530-c1bf-11ec-9d64-0242ac120002",
+        "usuario": "test",
+        "rol": "usuario"
+    }
+]
