@@ -4,7 +4,7 @@ const db = require('../db/usuarios.json');
 // No tiene mucho sentido esta autenticacion, pero es un ejemplo. Idealmete chequearimos un token.
 // No me dio el tiempo (ya paso mucho) para hacerlo de una forma mas elegante.
 
-// Hice un sistema muy basico de roles, para ver si el usuario puede editqr o no.
+// Hice un sistema muy basico de roles, para ver si el usuario puede editar o no.
 const postLogin = (req, res) => {
 	let reqUsuario = req.body.usuario;
 	let usuarioExiste = db.find(
